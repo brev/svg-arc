@@ -1,3 +1,5 @@
+This is a fork of `svg-arc`, with `{ type: 'module' }` set in `package.json`.
+
 <h1 align="center">svg-arc</h1>
 
 <p align="center">

@@ -1,8 +1,9 @@
 {
-  "name": "svg-arc",
+  "name": "@brev/svg-arc",
   "version": "1.0.2",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage"
