@@ -1,8 +1,8 @@
 {
   "name": "svg-arc-next",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Fork of svg-arc for modernization",
-  "homepage": "https://github.com/brev/svg-arc-next/tree/master#readme",
+  "homepage": "https://github.com/brev/svg-arc-next/tree/main#readme",
   "license": "MIT",
   "main": "index.js",
   "type": "module",

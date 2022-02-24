@@ -6,7 +6,7 @@
   <br>
 </p>
 
-<p align="center"><img width="400" src="https://raw.githubusercontent.com/brev/svg-arc-next/master/images/svg-arc.png"></p>
+<p align="center"><img width="400" src="https://raw.githubusercontent.com/brev/svg-arc-next/main/images/svg-arc.png"></p>
 
 Use SVG's `<path>` to generate circle, annulus, circular sector or annular sector, and return the `d` attribute value.
 
@@ -70,7 +70,7 @@ path.setAttribute('fill-rule', 'evenodd');
 
 ### Circle
 
-<p align="left"><img width="200" src="https://raw.githubusercontent.com/brev/svg-arc-next/master/images/circle.png"></p>
+<p align="left"><img width="200" src="https://raw.githubusercontent.com/brev/svg-arc-next/main/images/circle.png"></p>
 
 ```
 arc({
@@ -83,7 +83,7 @@ arc({
 
 ### Annulus
 
-<p align="left"><img width="200" src="https://raw.githubusercontent.com/brev/svg-arc-next/master/images/ring.png"></p>
+<p align="left"><img width="200" src="https://raw.githubusercontent.com/brev/svg-arc-next/main/images/ring.png"></p>
 
 ```
 arc({
@@ -100,7 +100,7 @@ When drawing a annulus, the attribute value of `fill-rule` must be set to `eveno
 
 ### Circular Sector
 
-<p align="left"><img width="200" src="https://raw.githubusercontent.com/brev/svg-arc-next/master/images/sector.png"></p>
+<p align="left"><img width="200" src="https://raw.githubusercontent.com/brev/svg-arc-next/main/images/sector.png"></p>
 
 
 ```
@@ -115,7 +115,7 @@ arc({
 
 ### Annular Sector
 
-<p align="left"><img width="200" src="https://raw.githubusercontent.com/brev/svg-arc-next/master/images/arc.png"></p>
+<p align="left"><img width="200" src="https://raw.githubusercontent.com/brev/svg-arc-next/main/images/arc.png"></p>
 
 ```
 arc({
