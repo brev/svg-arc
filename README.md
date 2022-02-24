@@ -10,12 +10,9 @@
 
 Use SVG's `<path>` to generate circle, annulus, circular sector or annular sector, and return the `d` attribute value.
 
-This is a fork of `svg-arc`, with `{ type: 'module' }` set in `package.json`.
-Eventually want to add other improvements and modernizations, such as:
-
-- Typescript
-- Rename `master` to `main`
-- Test with `uvu` instead of `jest`
+**NOTE:** This is a fork of [svg-arc](https://github.com/svgcamp/svg-arc), with 
+`{ type: 'module' }` set in `package.json`, and related changes. Eventually 
+want to add other improvements and modernizations, such as Typescript.
 
 ## Install
 
