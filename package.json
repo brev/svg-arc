@@ -42,6 +42,6 @@
   },
   "scripts": {
     "test": "jest",
-    "coverage": "jest --coverage"
+    "test:cover": "jest --coverage"
   }
 }
