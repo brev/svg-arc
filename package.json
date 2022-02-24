@@ -1,23 +1,18 @@
 {
-  "name": "@brev/svg-arc",
-  "version": "1.0.2",
-  "description": "",
+  "name": "svg-arc-next",
+  "version": "1.0.0",
+  "description": "Fork of svg-arc for modernization",
+  "homepage": "https://github.com/brev/svg-arc-next/tree/master#readme",
+  "license": "MIT",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "jest",
-    "coverage": "jest --coverage"
+  "author": {
+    "name": "Brev Patterson",
+    "url": "https://github.com/brev"
   },
-  "keywords": [
-    "svg",
-    "circle",
-    "annulus",
-    "sector",
-    "circular-sector",
-    "annular-sector"
-  ],
-  "author": "Z8264",
-  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brev/svg-arc-next/issues"
+  },
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.11.6",
@@ -31,8 +26,22 @@
     "jest": "^26.4.2",
     "regenerator-runtime": "^0.13.7"
   },
+  "keywords": [
+    "svg",
+    "arc",
+    "next",
+    "circle",
+    "annulus",
+    "sector",
+    "circular",
+    "annular"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brev/svg-arc"
+    "url": "https://github.com/brev/svg-arc-next.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
   }
 }

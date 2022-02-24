@@ -1,4 +1,4 @@
-import arc from './index';
+import arc from './index.js';
 
 test('draw circle', () => {
   expect(arc({

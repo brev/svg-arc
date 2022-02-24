@@ -1,26 +1,30 @@
-This is a fork of `svg-arc`, with `{ type: 'module' }` set in `package.json`.
-
-<h1 align="center">svg-arc</h1>
+<h1 align="center">svg-arc-next</h1>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/svg-arc"><img src="https://img.shields.io/npm/v/svg-arc.svg?sanitize=true" alt="Version"></a>
-  <a href="https://www.npmjs.com/package/svg-arc"><img src="https://img.shields.io/npm/l/svg-arc.svg?sanitize=true" alt="License"></a>
+  <a href="https://www.npmjs.com/package/svg-arc-next"><img src="https://img.shields.io/npm/v/svg-arc-next.svg?sanitize=true" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/svg-arc-next"><img src="https://img.shields.io/npm/l/svg-arc-next.svg?sanitize=true" alt="License"></a>
   <br>
 </p>
 
-<p align="center"><img width="400" src="https://raw.githubusercontent.com/svgcamp/svg-arc/master/images/svg-arc.png"></p>
-
+<p align="center"><img width="400" src="https://raw.githubusercontent.com/brev/svg-arc-next/master/images/svg-arc.png"></p>
 
 Use SVG's `<path>` to generate circle, annulus, circular sector or annular sector, and return the `d` attribute value.
+
+This is a fork of `svg-arc`, with `{ type: 'module' }` set in `package.json`.
+Eventually want to add other improvements and modernizations, such as:
+
+- Typescript
+- Rename `master` to `main`
+- Test with `uvu` instead of `jest`
 
 ## Install
 
 ```
-npm i --save svg-arc
+npm i --save svg-arc-next
 ```
 
 ``` js
-import arc from 'svg-arc';
+import arc from 'svg-arc-next';
 
 arc({x, y, R, r, start, end})
 ```
@@ -40,7 +44,7 @@ arc({x, y, R, r, start, end})
 ## Usage
 
 ``` js
-import arc from 'svg-arc';
+import arc from 'svg-arc-next';
 
 // create SVG
 const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
@@ -69,7 +73,7 @@ path.setAttribute('fill-rule', 'evenodd');
 
 ### Circle
 
-<p align="left"><img width="200" src="https://raw.githubusercontent.com/svgcamp/svg-arc/master/images/circle.png"></p>
+<p align="left"><img width="200" src="https://raw.githubusercontent.com/brev/svg-arc-next/master/images/circle.png"></p>
 
 ```
 arc({
@@ -82,7 +86,7 @@ arc({
 
 ### Annulus
 
-<p align="left"><img width="200" src="https://raw.githubusercontent.com/svgcamp/svg-arc/master/images/ring.png"></p>
+<p align="left"><img width="200" src="https://raw.githubusercontent.com/brev/svg-arc-next/master/images/ring.png"></p>
 
 ```
 arc({
@@ -99,7 +103,7 @@ When drawing a annulus, the attribute value of `fill-rule` must be set to `eveno
 
 ### Circular Sector
 
-<p align="left"><img width="200" src="https://raw.githubusercontent.com/svgcamp/svg-arc/master/images/sector.png"></p>
+<p align="left"><img width="200" src="https://raw.githubusercontent.com/brev/svg-arc-next/master/images/sector.png"></p>
 
 
 ```
@@ -114,7 +118,7 @@ arc({
 
 ### Annular Sector
 
-<p align="left"><img width="200" src="https://raw.githubusercontent.com/svgcamp/svg-arc/master/images/arc.png"></p>
+<p align="left"><img width="200" src="https://raw.githubusercontent.com/brev/svg-arc-next/master/images/arc.png"></p>
 
 ```
 arc({
@@ -131,4 +135,5 @@ arc({
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2020-present, Z8264
+Copyright (c) 2020-2021, [Z8264](https://github.com/svgcamp) (original author)
+
